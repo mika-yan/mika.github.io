@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+  body{
+	margin: 0;
+	padding: 0;
+	background: #2B2B2B;
+	min-height: 100vh;
+	overflow-x: hidden;
+}
+  
+
+*{
+	font-family: "Poppins", sans-serif;
+}
+/*------------------------HEADER-------------------------------------*/
+.nav_menu{
+	background: white;
+	padding:2px;
+	padding-left: 110px;
+}
+
+ ul{
+ 	text-align: center;
+ 	justify-content: center;
+ 	width: 100%;
+ }
+
+li{
+	display: inline;
+}
+.nav_menu a{
+	text-decoration:none;
+	color:black;
+	margin: 20px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 22px;
+	padding-right: 22px;
+	transition: 1s;
+}
+.nav_menu a:hover{
+  background: grey;
+  color:white;
+  transition: 1s;
+}
+
+
+/*------------------------LOGO-------------------------------------*/
+
+.logo img{
+	position: absolute;
+	top:-3.15%;
+	left: 1%;
+} 
+/*------------------------PHONE-------------------------------------*/
+
+.phone{
+    position: absolute;
+    top: -2%;
+    left: 83.5%;
+}
+.email{
+    position: absolute;
+    top: 1.5%;
+    left: 83.5%;
+}
+.contact_forma{
+	font-size: 0.95em;
+}
+
+.phone img{
+	position: absolute;
+	left: -18%;
+	top: 35%;
+}
+
+.email img{
+	position: absolute;
+	left: -12%;
+	top: 35%;
+}
